@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/color_black_100"/>
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:background="@color/color_black_100"
+        android:text="0.8"/>
+
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:background="@color/color_black_90"
+        android:text="0.6"/>
+
+    <TextView
+        android:id="@+id/view3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:background="@color/color_black_80"
+        android:text="0.4"/>
+
+    <TextView
+        android:id="@+id/view4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:background="@color/color_black_70"
+        android:text="0.2"/>
+
+    <TextView
+        android:id="@+id/view5"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:background="@color/color_black_60"
+        android:text="0.0"/>
+
+    <TextView
+        android:id="@+id/view6"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:background="@color/color_black_50"
+        android:text="0.2"/>
+
+    <TextView
+        android:id="@+id/view7"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="@color/color_black_40"
+        android:text="-0.4"/>
+
+    <TextView
+        android:id="@+id/view8"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="@color/color_black_30"
+        android:text="-0.6"/>
+
+    <TextView
+        android:id="@+id/view9"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="@color/color_black_20"
+        android:text="-0.8"/>
+
+    <TextView
+        android:id="@+id/view10"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="@color/color_black_10"
+        android:text="-1.0"/>
+</FrameLayout>
