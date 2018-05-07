@@ -4,114 +4,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <View
-        android:layout_width="1dp"
+    <ImageView
+        android:id="@+id/imageBackground"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/color_black_100"/>
+        android:scaleType="centerCrop"
+        android:src="@mipmap/im_photo"/>
+
+    <ImageView
+        android:id="@+id/accentOval1"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:tint="@color/colorAccent"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="150dp"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/bg_shape_oval"/>
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/im_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/accentOval2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:tint="@color/colorAccent"
+        android:layout_gravity="end"
+        android:layout_marginEnd="-52dp"
+        android:layout_marginTop="-52dp"
+        android:src="@drawable/bg_shape_oval"/>
 
     <TextView
-        android:id="@+id/view1"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="#fff"
-        android:textSize="24sp"
-        android:background="@color/color_black_100"
-        android:text="0.8"/>
-
-    <TextView
-        android:id="@+id/view2"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="#fff"
-        android:textSize="24sp"
-        android:background="@color/color_black_90"
-        android:text="0.6"/>
-
-    <TextView
-        android:id="@+id/view3"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="#fff"
-        android:textSize="24sp"
-        android:background="@color/color_black_80"
-        android:text="0.4"/>
-
-    <TextView
-        android:id="@+id/view4"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="#fff"
-        android:textSize="24sp"
-        android:background="@color/color_black_70"
-        android:text="0.2"/>
-
-    <TextView
-        android:id="@+id/view5"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="#fff"
-        android:textSize="24sp"
-        android:background="@color/color_black_60"
-        android:text="0.0"/>
-
-    <TextView
-        android:id="@+id/view6"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="#fff"
-        android:textSize="24sp"
-        android:background="@color/color_black_50"
-        android:text="0.2"/>
-
-    <TextView
-        android:id="@+id/view7"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textSize="24sp"
-        android:background="@color/color_black_40"
-        android:text="-0.4"/>
-
-    <TextView
-        android:id="@+id/view8"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textSize="24sp"
-        android:background="@color/color_black_30"
-        android:text="-0.6"/>
-
-    <TextView
-        android:id="@+id/view9"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textSize="24sp"
-        android:background="@color/color_black_20"
-        android:text="-0.8"/>
-
-    <TextView
-        android:id="@+id/view10"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textSize="24sp"
-        android:background="@color/color_black_10"
-        android:text="-1.0"/>
+        android:id="@+id/textParallax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:textColor="@color/color_black_0"
+        android:layout_margin="40dp"
+        android:textSize="18dp"
+        android:text="Parallax effect allows you to make the interface not only more lively and dynamic, but also create a sense of volume in the display space"/>
 </FrameLayout>

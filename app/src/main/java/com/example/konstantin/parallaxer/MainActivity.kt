@@ -1,12 +1,17 @@
 package com.example.konstantin.parallaxer
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.view.PagerAdapter
+import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.view.ViewGroup
 import kotlinx.android.synthetic.main.activity_main.*
 
+
+/**
+ * @author Semper-Viventem
+ * @since 07.05.2018
+ */
 class MainActivity : AppCompatActivity() {
 
     private val pages = listOf(
@@ -75,6 +80,11 @@ class MainActivity : AppCompatActivity() {
             addParallaxView(R.id.view9_2, -0.8F)
             addParallaxView(R.id.view10_2, -1.0F)
             addParallaxView(R.id.textDepth, 0.2F)
+
+            addParallaxView(R.id.imageBackground, 0.7F)
+            addParallaxView(R.id.accentOval1, 0.5F)
+            addParallaxView(R.id.accentOval2, -0.5F)
+            addParallaxView(R.id.textParallax, -0.8F)
         }
     }
 

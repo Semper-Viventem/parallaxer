@@ -4,7 +4,10 @@ import android.support.annotation.IdRes
 import android.support.v4.view.ViewPager
 import android.view.View
 
-
+/**
+ * @author Semper-Viventem
+ * @since 07.05.2018
+ */
 class ParallaxHelper {
 
     companion object {
