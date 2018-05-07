@@ -45,5 +45,5 @@
         android:textColor="@color/color_black_0"
         android:layout_margin="40dp"
         android:textSize="18dp"
-        android:text="Parallax effect allows you to make the interface not only more lively and dynamic, but also create a sense of volume in the display space"/>
+        android:text="@string/parallax_effect_allows_you_to_make_the_interface_not_only_more_lively_and_dynamic_but_also_create_a_sense_of_volume_in_the_display_space"/>
 </FrameLayout>

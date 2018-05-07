@@ -5,6 +5,7 @@ import android.support.v4.view.PagerAdapter
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -25,6 +26,9 @@ class MainActivity : AppCompatActivity() {
         override fun instantiateItem(container: ViewGroup, position: Int): Any {
 
             val pageView = container.inflate(pages[position])
+
+            pageView.findViewById<TextView>(R.id.titleText)?.text = spannedFromHtml(resources.getString(R.string.title, resources.color(R.color.colorAccent)))
+
             container.addView(pageView)
             return pageView
         }
@@ -40,7 +44,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         initViewPager()
     }
 

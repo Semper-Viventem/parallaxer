@@ -40,15 +40,9 @@ fun Resources.color(colorRes: Int) =
         this.getColor(colorRes)
     }
 
-fun ImageView.tintSrc(@ColorRes colorRes: Int) {
-    val drawable = DrawableCompat.wrap(drawable)
-    DrawableCompat.setTint(drawable, ContextCompat.getColor(context, colorRes))
-    setImageDrawable(drawable)
-    if (drawable is TintAwareDrawable) invalidate() // Because in this case setImageDrawable will not call invalidate()
-}
-
-fun Activity.getScreenHeight(): Int {
-    val size = Point()
-    windowManager.defaultDisplay.getSize(size)
-    return size.y
-}
+fun spannedFromHtml(source: String): Spanned =
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+        Html.fromHtml(source, Html.FROM_HTML_MODE_COMPACT)
+    } else {
+        Html.fromHtml(source)
+    }

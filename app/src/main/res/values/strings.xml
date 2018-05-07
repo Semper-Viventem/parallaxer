@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Parallaxer</string>
+    <string name="title"><![CDATA[ PARALLA<font color=\"%d\">X</font>ER]]></string>
+    <string name="parallax_effect_allows_you_to_make_the_interface_not_only_more_lively_and_dynamic_but_also_create_a_sense_of_volume_in_the_display_space">Parallax effect allows you to make the interface not only more lively and dynamic, but also create a sense of volume in the display space</string>
+    <string name="normal_depth_0">Normal depth = 0</string>
+    <string name="the_optical_depth_of_the_element_can_vary_from_1_to_1">The optical depth of the element can vary from -1 to 1</string>
+    <string name="_0_8">0.8</string>
+    <string name="_0_6">0.6</string>
+    <string name="_0_4">0.4</string>
+    <string name="_0_2">0.2</string>
+    <string name="_0_0">0.0</string>
+    <string name="m_0_2">-0.2</string>
+    <string name="m_0_4">-0.4</string>
+    <string name="m_0_6">-0.6</string>
+    <string name="m_0_8">-0.8</string>
+    <string name="m_1_0">-1.0</string>
+    <string name="example_of_parallax_effect_implementation_nby_semper_viventem">Example of parallax effect implementation by Semper-Viventem</string>
 </resources>
