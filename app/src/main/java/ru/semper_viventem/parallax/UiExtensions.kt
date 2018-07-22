@@ -1,4 +1,4 @@
-package com.example.konstantin.parallaxer
+package ru.semper_viventem.parallax
 
 import android.content.res.Resources
 import android.os.Build

@@ -1,4 +1,4 @@
-package com.example.konstantin.parallaxer
+package ru.semper_viventem.parallax
 
 import android.os.Bundle
 import android.support.v4.view.PagerAdapter
