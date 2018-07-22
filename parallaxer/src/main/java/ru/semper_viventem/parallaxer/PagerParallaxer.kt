@@ -1,4 +1,4 @@
-package ru.semper_viventem.parallax
+package ru.semper_viventem.parallaxer
 
 import android.support.annotation.IdRes
 import android.support.v4.view.ViewPager
@@ -8,7 +8,7 @@ import android.view.View
  * @author Semper-Viventem
  * @since 07.05.2018
  */
-class ParallaxHelper {
+class PagerParallaxer {
 
     companion object {
         const val MAX_OPTICAL_DEPTH = 1f

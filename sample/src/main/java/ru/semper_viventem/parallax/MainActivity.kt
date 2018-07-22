@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
+import ru.semper_viventem.parallaxer.PagerParallaxer
 
 
 /**
@@ -39,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private val parallaxHelper = ParallaxHelper()
+    private val parallaxHelper = PagerParallaxer()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
